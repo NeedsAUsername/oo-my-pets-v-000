@@ -5,11 +5,10 @@ class Owner
 
   def initialize
       @pets = {fishes: [], cats: [], dogs: []}
+      @@all << self
   end
 
-  def save
-      @all << self
-  end
+
 
   def all
       @@all
