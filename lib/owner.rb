@@ -1,4 +1,3 @@
-require_relative 'fish.rb'
 require 'pry'
 
 class Owner
