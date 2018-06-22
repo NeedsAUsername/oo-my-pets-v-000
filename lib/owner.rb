@@ -75,11 +75,11 @@ class Owner
 
   def list_pets
       self.pets.each do |type, animals|
-          animals.each do |animal|
-              puts animal.name
+          animals.collect do |animal|
+              animal.name
           end
       end
-  end 
+  end
 
 
 
