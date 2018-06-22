@@ -87,7 +87,7 @@ class Owner
               else string += " and #{animals.length} #{animals[0].species}(s)."
               end
           elsif animals[0].species == "fish"
-              string += " #{animals.length} #{animals[0].species}(s),"
+              string += " #{animals.length} #{animals[0].species},"
           else string += " #{animals.length} #{animals[0].species}(s),"
           end
       end
