@@ -77,8 +77,8 @@ class Owner
       string = "I have"
       self.pets.each_with_index do |(type, animals), index|
           if index == animals.size - 1
-              string += " and #{animals.length} #{type}(s)."
-          else string += " #{animals.length} #{type}(s),"
+              string += " and #{animals.length} #{animals[0].class.species}(s)."
+          else string += " #{animals.length} #{animals[0].class.species}(s),"
           end
       end
       string
