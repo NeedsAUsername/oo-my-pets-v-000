@@ -76,10 +76,10 @@ class Owner
   def list_pets
       string = "I have"
       self.pets.each_with_index do |(type, animals), index|
-          if index == animals.size
+          if index == animals.size - 1
               string += "and #{animals.length} #{type}(s)."
           else string += " #{animals.length} #{type}(s), "
-          end 
+          end
       end
       string
   end
