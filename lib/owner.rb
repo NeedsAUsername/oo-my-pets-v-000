@@ -44,7 +44,11 @@ class Owner
   def buy_dog(dog)
       new_dog = Dog.new(dog)
       self.pets[:dogs] << new_dog
-  end 
+  end
+
+  def walk_dogs
+      self.pets[:dogs].each do |dog|
+          dog.
 
 
 end
