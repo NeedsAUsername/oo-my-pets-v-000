@@ -84,7 +84,7 @@ class Owner
       string
   end
 
-
+binding.pry
 
 
 
