@@ -74,11 +74,11 @@ class Owner
   end
 
   def list_pets
+      string = "I have"
       self.pets.collect do |type, animals|
-          animals.collect do |animal|
-              animal.name
+          string += "#{animals.length}"
           end
-      end
+      puts string
   end
 
 
