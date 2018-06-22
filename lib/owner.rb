@@ -64,6 +64,10 @@ class Owner
       end
   end
 
+  def list_pets
+      self.pets.each do |pet_type|
+          
+
 
 
 end
