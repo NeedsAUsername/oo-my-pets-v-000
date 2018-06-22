@@ -75,9 +75,12 @@ class Owner
 
   def list_pets
       string = "I have"
-      self.pets.collect do |type, animals|
-          string += " #{animals.length} #{type}, "
-          end
+      self.pets.each_with_index do |(type, animals), index|
+          if index == animals.size
+              string += "and #{animals.length} #{type}(s)."
+          else string += " #{animals.length} #{type}(s), "
+          end 
+      end
       string
   end
 
