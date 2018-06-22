@@ -66,7 +66,10 @@ class Owner
 
   def list_pets
       self.pets.each do |pet_type|
-          
+          puts self.pets[pet_type]
+      end
+  end 
+
 
 
 
