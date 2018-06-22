@@ -32,6 +32,7 @@ class Owner
   end
 
   def buy_fish(fish)
+      if fish
       self.pets[:fishes] << fish
   end
 
