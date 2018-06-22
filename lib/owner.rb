@@ -33,7 +33,7 @@ class Owner
   end
 
   def add_fish(fish)
-      new_fish = fish.new("#{fish}")
+      new_fish = Fish.new("#{fish}")
       self.pets[:fishes] << new_fish
   end
 
