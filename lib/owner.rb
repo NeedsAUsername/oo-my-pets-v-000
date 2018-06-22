@@ -8,11 +8,11 @@ class Owner
   end
 
   def save
-      @all << self 
+      @all << self
   end
 
   def all
-      @all
+      @@all
   end
 
 end
