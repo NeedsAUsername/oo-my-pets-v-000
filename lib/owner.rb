@@ -70,7 +70,7 @@ class Owner
               animal.mood = "nervous"
           end
       end
-      self.class.reset_all
+      self.pets = {fishes: [], cats: [], dogs: []}
   end
 
 
