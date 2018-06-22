@@ -9,5 +9,8 @@ class Fish
         @mood = "nervous"
     end
 
+    def species
+        "fish"
+    end 
 
 end
