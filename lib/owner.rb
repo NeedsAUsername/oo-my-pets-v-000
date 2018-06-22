@@ -78,7 +78,7 @@ class Owner
       self.pets.collect do |type, animals|
           string += "#{animals.length}"
           end
-      puts string
+      string
   end
 
 
