@@ -1,3 +1,5 @@
+require 'pry'
+
 class Owner
   attr_accessor :pets, :name
   attr_reader :species
@@ -30,10 +32,10 @@ class Owner
   end
 
   def buy_fish(fish)
-      self.pets["fishes"] << fish 
+      self.pets["fishes"] << fish
   end
 
 
 
-
+binding.pry
 end
