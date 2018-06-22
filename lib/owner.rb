@@ -66,9 +66,12 @@ class Owner
 
   def list_pets
       self.pets.each do |pet_type|
-          puts self.pets[pet_type]
+          puts self.pets[pet_type].name
       end
-  end 
+  end
+
+  def sell_pets
+      self.pets.each
 
 
 
