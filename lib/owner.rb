@@ -73,6 +73,14 @@ class Owner
       self.pets = {fishes: [], cats: [], dogs: []}
   end
 
+  def list_pets
+      self.pets.each do |type, animals|
+          animals.each do |animal|
+              puts animal.name
+          end
+      end
+  end 
+
 
 
 
