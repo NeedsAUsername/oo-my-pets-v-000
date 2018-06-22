@@ -9,7 +9,7 @@ class Fish
         @mood = "nervous"
     end
 
-    def self.species
+    def species
         "fish"
     end
 
