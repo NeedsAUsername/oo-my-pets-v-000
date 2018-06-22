@@ -8,8 +8,8 @@ class Cat
       @mood = "nervous"
   end
 
-  def species
+  def self.species
       "cat"
-  end 
+  end
 
 end
