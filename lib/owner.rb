@@ -74,7 +74,7 @@ class Owner
   end
 
   def list_pets
-      self.pets.each do |type, animals|
+      self.pets.collect do |type, animals|
           animals.collect do |animal|
               animal.name
           end
