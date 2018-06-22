@@ -76,7 +76,7 @@ class Owner
   def list_pets
       string = "I have"
       self.pets.collect do |type, animals|
-          string += "#{animals.length}"
+          string += " #{animals.length} #{type}, "
           end
       string
   end
