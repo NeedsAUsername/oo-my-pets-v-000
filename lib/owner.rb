@@ -81,7 +81,7 @@ class Owner
                   string += " #{animals.length} #{animals[0].species}."
               else string += " #{animals.length} #{animals[0].species}(s)."
               end
-          elsif index == type.length - 1
+          elsif index == self.pets.length - 1
               if animals[0].species == "fish"
                   string += " and #{animals.length} #{animals[0].species}."
               else string += " and #{animals.length} #{animals[0].species}(s)."
