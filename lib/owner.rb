@@ -32,7 +32,7 @@ class Owner
       "I am a #{self.species}."
   end
 
-  def add_fish(fish)
+  def buy_fish(fish)
       self.pets[:fishes] << fish
   end
 
